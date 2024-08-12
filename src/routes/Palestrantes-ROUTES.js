@@ -6,6 +6,6 @@ import { cadastrarPalestrante, getTodosPalestrantes } from "../controllers/Pales
 
 
 router.get("/", getTodosPalestrantes);
-router.post("/cadastro", cadastrarPalestrante)
+router.post("/", cadastrarPalestrante)
 
 export default router;
